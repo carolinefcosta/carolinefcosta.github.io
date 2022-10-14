@@ -1,15 +1,20 @@
 body{
-    background-color: pink;
+    background-color: rgb(255, 20, 147);
 }
 h1{
     font-size: 50px;
     color: white;
     text-align: center;
-    font-family: fantasy;
+    font-family: 'Times New Roman', Times, serif;
 }
 .minhaFoto{
     text-align: center;
 }
 img{
     border-radius: 50%;
+}
+p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
 }
