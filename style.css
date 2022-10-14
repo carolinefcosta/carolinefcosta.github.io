@@ -18,9 +18,15 @@ p{
     color: white;
     font-size: 20px;
 }
+.nacionalidade{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
 ul{
     text-align: center;
     font-size: 20px;
     list-style: none;
-    color: antiquewhite;
+    color: rgb(219, 112, 147);
 }
