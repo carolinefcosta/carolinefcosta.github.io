@@ -1,3 +1,6 @@
+h1, .minhaFoto, .descricao, .nacionalidade {
+    display: inline-block;
+}
 body{
     background-color: rgb(255, 20, 147);
 }
@@ -8,13 +11,16 @@ h1{
     font-family:'Times New Roman', Times, serif;
 }
 .minhaFoto{
-    text-align: center;
+    text-align: left;
+    margin: 15px;
+    padding: 5px 20px;
 }
 img{
+
     border-radius: 50%;
 }
 p{
-    text-align: center;
+    text-align: right;
     color: white;
     font-size: 20px;
 }
