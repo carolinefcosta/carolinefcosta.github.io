@@ -1,32 +1,33 @@
-h1, .minhaFoto, .descricao, .nacionalidade {
-    display: inline-block;
+h1, .minhaFoto, .descricao {
+    box-sizing: border-box;
 }
 body{
     background-color: rgb(255, 20, 147);
 }
 h1{
-    font-size: 50px;
+    font-size: 45px;
     color: white;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
 }
 .minhaFoto{
+    height: 50px;
+    width: 100px;
     text-align: left;
-    margin: 15px;
-    padding: 5px 20px;
+    
 }
 img{
-
     border-radius: 50%;
 }
 p{
-    text-align: right;
+    text-align: center;
     color: white;
     font-size: 20px;
+    top: 50px;
 }
 .nacionalidade{
-    font-weight: bold;
     text-align: center;
+    font-weight: bold;
     color: white;
     font-size: 20px;
 }
