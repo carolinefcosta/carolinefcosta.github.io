@@ -3,8 +3,7 @@ h1, .minhaFoto, .descricao {
 }
 .minhaFoto, .descricao{
     display: inline-block;
-    height: 100px;
-    width: 30%;
+    
 }
 body{
     background-color: rgb(255, 20, 147);
@@ -25,7 +24,7 @@ img{
 .descricao{
     text-align: center;
     margin: auto;
-    padding: 0;
+    padding: 10px 0;
 }
 p{
     text-align: center;
