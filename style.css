@@ -1,6 +1,11 @@
 h1, .minhaFoto, .descricao {
     box-sizing: border-box;
 }
+.minhaFoto, .descricao{
+    display: inline-block;
+    height: 100px;
+    width: 30%;
+}
 body{
     background-color: rgb(255, 20, 147);
 }
@@ -12,20 +17,22 @@ h1{
 }
 img{
     background-color: pink;
-    padding: 1em;
-  
-}
-.minhaFoto{
-    text-align: left;
+    padding: 5px;
 }
 img{
     border-radius: 50%;
+}
+.descricao{
+    text-align: center;
+    margin: auto;
+    padding: 0;
 }
 p{
     text-align: center;
     color: white;
     font-size: 20px;
-    top: 50px;
+    padding: 0;
+    margin: auto;
 }
 .nacionalidade{
     text-align: center;
