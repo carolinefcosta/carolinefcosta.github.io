@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
+.main {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  color: white;
+  font-family: 'Sofia';
+  text-shadow: 3px 3px 3px #ababab;
+  height: 80px;
+  background: -webkit-linear-gradient(left, #ff74b0, #f84e9f);
+  background: -moz-linear-gradient(left, #ff74b0, #f84e9f);
+  background: -ms-linear-gradient(left, #ff74b0, #f84e9f);
+  background: -o-linear-gradient(left, #ff74b0, #f84e9f);
+  background: linear-gradient(to right, #ff74b0, #f84e9f);
+}
+
+.h1 {
+  margin-top: 0;
+  font-size: xx-large;
+}
+
+.h3 {
+  margin-top: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+}

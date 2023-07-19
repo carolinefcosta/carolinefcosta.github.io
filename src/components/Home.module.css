@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  font-family: 'Sofia';
+  background-color: white;
+  align-items: center;
+}
+
+.txt {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+}
+
+.img {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  height: 25%;
+  width: 25%;
+  margin: 10%;
+}
