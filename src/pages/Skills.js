@@ -5,7 +5,7 @@ function Skills(){
     return (
         <div>
             <Header />
-            <h1>Skills</h1>         
+            <h1>Skills</h1>      
         </div>
     )   
 }
