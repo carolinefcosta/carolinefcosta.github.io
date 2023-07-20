@@ -28,4 +28,12 @@
   height: 25%;
   width: 25%;
   margin: 10%;
+  border-radius: 100px;
+}
+
+.imgLink {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  border-radius: 100px;
 }

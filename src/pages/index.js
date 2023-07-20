@@ -5,6 +5,7 @@ import laptop from '../images/laptop.gif';
 import Image from 'next/image';
 import styleHome from '../components/Home.module.css';
 import Swal from 'sweetalert2';
+import imgGit from '../images/github.jpeg';
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -73,6 +74,7 @@ export default function Home() {
           <Header />    
           <div>
             <div className={styleHome.txt}>Olá, {name}! Seja bem-vindo(a) ao meu Portfólio!</div>
+            <Image src={imgGit} alt='github'/>
           </div>
           <Image src={laptop} alt='gif-animado' className={styleHome.img}/>
         </div>
