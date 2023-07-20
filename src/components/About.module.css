@@ -15,6 +15,14 @@
   flex-wrap: wrap;
   align-items: center;
   font-size: 18px;
+  background: -webkit-linear-gradient(left, #97d9d9, #ec55b7);
+  background: -moz-linear-gradient(left, #97d9d9, #ec55b7);
+  background: -ms-linear-gradient(left, #97d9d9, #ec55b7);
+  background: -o-linear-gradient(left, #97d9d9, #ec55b7);
+  background: linear-gradient(to right, #97d9d9, #ec55b7);
+  border-radius: 150px;
+  margin-top: 10px;
+  padding: 5px;
 }
 
 .img {

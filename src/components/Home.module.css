@@ -8,6 +8,7 @@
   font-family: 'Sofia';
   background-color: white;
   align-items: center;
+  height: 100vh;
 }
 
 .txt {
@@ -17,6 +18,13 @@
   justify-content: space-around;
   align-items: center;
   font-size: 25px;
+  background: -webkit-linear-gradient(left, #97d9d9, #ec55b7);
+  background: -moz-linear-gradient(left, #97d9d9, #ec55b7);
+  background: -ms-linear-gradient(left, #97d9d9, #ec55b7);
+  background: -o-linear-gradient(left, #97d9d9, #ec55b7);
+  background: linear-gradient(to right, #97d9d9, #ec55b7);
+  border-radius: 20px;
+  padding: 5px;
 }
 
 .img {
@@ -25,10 +33,15 @@
   text-align: center;
   justify-content: space-around;
   align-items: center;
-  height: 25%;
-  width: 25%;
+  height: 47%;
+  width: 20%;
   margin: 10%;
-  border-radius: 100px;
+  border-radius: 80px;
+}
+
+.div{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .imgLink {
@@ -36,4 +49,22 @@
   width: 50px;
   margin: 10px;
   border-radius: 100px;
+}
+
+.git{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 12vh;
+}
+
+.linkedin {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 11vh;
 }

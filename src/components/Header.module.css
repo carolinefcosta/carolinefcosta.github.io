@@ -9,11 +9,16 @@
   font-family: 'Sofia';
   text-shadow: 3px 3px 3px #ababab;
   height: 80px;
-  background: -webkit-linear-gradient(left, #ff74b0, #f84e9f);
-  background: -moz-linear-gradient(left, #ff74b0, #f84e9f);
-  background: -ms-linear-gradient(left, #ff74b0, #f84e9f);
-  background: -o-linear-gradient(left, #ff74b0, #f84e9f);
-  background: linear-gradient(to right, #ff74b0, #f84e9f);
+  background: -webkit-linear-gradient(left, #97d9d9, #ec55b7);
+  background: -moz-linear-gradient(left, #97d9d9, #ec55b7);
+  background: -ms-linear-gradient(left, #97d9d9, #ec55b7);
+  background: -o-linear-gradient(left, #97d9d9, #ec55b7);
+  background: linear-gradient(to right, #97d9d9, #ec55b7);
+  /* background: -webkit-linear-gradient(left, #ec55b7, #7eedf4);
+  background: -moz-linear-gradient(left, #ec55b7, #7eedf4);
+  background: -ms-linear-gradient(left, #ec55b7, #7eedf4);
+  background: -o-linear-gradient(left, #ec55b7, #7eedf4);
+  background: linear-gradient(to right, #ec55b7, #7eedf4); */
 }
 
 .h1 {
