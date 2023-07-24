@@ -14,11 +14,6 @@
   background: -ms-linear-gradient(left, #97d9d9, #ec55b7);
   background: -o-linear-gradient(left, #97d9d9, #ec55b7);
   background: linear-gradient(to right, #97d9d9, #ec55b7);
-  /* background: -webkit-linear-gradient(left, #ec55b7, #7eedf4);
-  background: -moz-linear-gradient(left, #ec55b7, #7eedf4);
-  background: -ms-linear-gradient(left, #ec55b7, #7eedf4);
-  background: -o-linear-gradient(left, #ec55b7, #7eedf4);
-  background: linear-gradient(to right, #ec55b7, #7eedf4); */
 }
 
 .h1 {
@@ -28,6 +23,8 @@
 
 .h3 {
   margin-top: 0;
+  text-align: start;
+  /* text-align: center; */
 }
 
 .link {

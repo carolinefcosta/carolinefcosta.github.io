@@ -4,8 +4,9 @@
   display: flex;
   flex-wrap: wrap;
   font-family: 'Sofia';
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.863);
   justify-content: center;
+  color: white;
 }
 
 .h1 {
@@ -25,4 +26,8 @@
   margin-bottom: 20px;
   height: 120px;
   width: 120px;
+}
+
+.paragrafh {
+  margin-bottom: 15px;
 }

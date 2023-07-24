@@ -13,7 +13,7 @@ function Header(){
         <Link href='/About' className={styleHeader.link}>Sobre</Link>
         <Link href='/Projects' className={styleHeader.link} >Projetos</Link>
         <Link href='/Skills' className={styleHeader.link} >Skills</Link>
-        <Link href='/Contact' className={styleHeader.link} >Contato</Link>
+        {/* <Link href='/Contact' className={styleHeader.link} >Contato</Link> */}
       </main>
     )   
 }

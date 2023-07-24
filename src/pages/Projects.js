@@ -19,29 +19,29 @@ function Projects(){
             <section className={styleProjects.section}>
                 <div className={styleProjects.gif}>
                     <Image src={projectSolarSystem} alt='projeto solar system'/>
-                    <Link href='https://github.com/carolinefcosta/project-solar-system' >GitHub</Link>
+                    <Link href='https://github.com/carolinefcosta/project-solar-system' className={styleProjects.link}>GitHub</Link>
                 </div>
                 <div className={styleProjects.gif}>
                     <Image src={projectTrybetunes} alt='projeto trybetunes'/>
-                    <Link href='https://github.com/carolinefcosta/project-trybetunes' >GitHub</Link>
+                    <Link href='https://github.com/carolinefcosta/project-trybetunes' className={styleProjects.link}>GitHub</Link>
                 </div>
                 <div className={styleProjects.gif}>
                     <Image src={projectOnlineStore} alt='projeto online store'/>
-                    <Link href='https://github.com/carolinefcosta/project-frontend-online-store' >GitHub</Link>
+                    <Link href='https://github.com/carolinefcosta/project-frontend-online-store' className={styleProjects.link}>GitHub</Link>
                 </div>       
             </section>
             <section className={styleProjects.section}>
                 <div className={styleProjects.gif}>
                     <Image src={projectTrybewallet} alt='projeto trybewallet'/>
-                    <Link href='https://github.com/carolinefcosta/project-trybewallet' >GitHub</Link>
+                    <Link href='https://github.com/carolinefcosta/project-trybewallet' className={styleProjects.link}>GitHub</Link>
                 </div>
                 <div className={styleProjects.gif}>
                     <Image src={projectTrivia} alt='projeto trivia'/>
-                    <Link href='https://github.com/carolinefcosta/project-trivia' >GitHub</Link>
+                    <Link href='https://github.com/carolinefcosta/project-trivia' className={styleProjects.link}>GitHub</Link>
                 </div>
                 <div className={styleProjects.gif}>
                     <Image src={projectStarwars} alt='projeto starwars'/>
-                    <Link href='https://github.com/carolinefcosta/project-starwars-planets-search' >GitHub</Link>
+                    <Link href='https://github.com/carolinefcosta/project-starwars-planets-search' className={styleProjects.link}>GitHub</Link>
                 </div>  
             </section>
         </div>

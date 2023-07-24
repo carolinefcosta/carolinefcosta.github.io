@@ -1,12 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Header from '../components/Header';
 import laptop from '../images/laptop.gif';
 import Image from 'next/image';
 import styleHome from '../components/Home.module.css';
-import Swal from 'sweetalert2';
+// import Swal from 'sweetalert2';
 import Bot from '@/components/Bot';
-import iconLinkedin from '../images/linkedin.png';
-import iconGit from '../images/github.png';
+import Contact from '@/components/Contact';
 
 export default function Home() {
   // let [name, setName] = useState('');
@@ -69,23 +68,18 @@ export default function Home() {
   // }, [])
 
     return (
-        <div className={styleHome.main}>
+      <main className={styleHome.main}>
+        <div className={styleHome.homeDiv}>
           <Header />   
           <div >
             <p className={styleHome.txt}>Olá! Seja bem-vindo(a) ao meu Portfólio!</p>
             <p className={styleHome.txt}>Sou Caroline Fernandes,</p>
             <p className={styleHome.txt}>Desenvolvedora Web Full Stack.</p>
           </div>
-          {/* <div className={styleHome.div}>
-            <a href="https://github.com/carolinefcosta" className={styleHome.git}>
-              <Image src={iconGit} alt='icon-linkedIn' />
-            </a>
-            <a href="https://www.linkedin.com/in/carolinefernandescosta/" className={styleHome.linkedin}>
-              <Image src={iconLinkedin} alt='icon-linkedIn' />
-            </a>
-          </div> */}
           <Image src={laptop} alt='gif-animado' className={styleHome.img}/>
-          <Bot />
         </div>
+        <Bot />
+        <Contact />
+      </main>
     ) 
 }

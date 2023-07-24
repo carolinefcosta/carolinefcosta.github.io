@@ -1,29 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Sofia');
-
 .main {
   display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: space-around;
-  font-family: 'Sofia';
-  background-color: white;
-  align-items: center;
-}
-
-.git{
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  width: 12vh;
-}
-
-.linkedin {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  width: 11vh;
+  margin-top: -120px;
+  margin-left: 220px;
 }

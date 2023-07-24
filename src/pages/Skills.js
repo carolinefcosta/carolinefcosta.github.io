@@ -60,15 +60,15 @@ function Skills(){
                 </div>
                 <div>
                     <Image src={mysql} alt='mysql' className={styleSkill.img}/>
-                    <p>MySQL</p>
+                    <p className={styleSkill.paragrafh}>MySQL</p>
                 </div>
                 <div>
                     <Image src={sequelize} alt='sequelize' className={styleSkill.img}/>
-                    <p>Sequelize ORM</p>
+                    <p className={styleSkill.paragrafh}>Sequelize ORM</p>
                 </div>
                 <div>
                     <Image src={github} alt='github' className={styleSkill.img}/>
-                    <p>GitHub</p>
+                    <p className={styleSkill.paragrafh}>GitHub</p>
                 </div>
             </section>   
         </div>
