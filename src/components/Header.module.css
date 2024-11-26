@@ -1,19 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Sofia');
 
 .main {
+  background-color: rgba(0, 0, 0, 0.863);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
   color: white;
   font-family: 'Sofia';
   text-shadow: 3px 3px 3px #ababab;
-  height: 80px;
-  background: -webkit-linear-gradient(left, #97d9d9, #ec55b7);
-  background: -moz-linear-gradient(left, #97d9d9, #ec55b7);
-  background: -ms-linear-gradient(left, #97d9d9, #ec55b7);
-  background: -o-linear-gradient(left, #97d9d9, #ec55b7);
-  background: linear-gradient(to right, #97d9d9, #ec55b7);
 }
 
 .h1 {
@@ -24,7 +19,6 @@
 .h3 {
   margin-top: 0;
   text-align: start;
-  /* text-align: center; */
 }
 
 .link {

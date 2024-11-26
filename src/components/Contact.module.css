@@ -1,6 +1,7 @@
 .main {
   display: flex;
   justify-content: center;
-  margin-top: -120px;
-  margin-left: 220px;
+  overflow: hidden;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.863);
 }

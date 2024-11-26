@@ -3,26 +3,46 @@
 .main {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .homeDiv {
   display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: space-around;
+  flex-direction: column;
   font-family: 'Sofia';
   background-color: rgba(0, 0, 0, 0.863);
   align-items: center;
-  height: 100vh;
-  width: 100%;
+  justify-content: center; /* Centralizar verticalmente */
+  flex: 1;
 }
 
-.txt {
+.img {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  justify-content: space-around;
+  justify-content: center; /* Garantir que a imagem fique centralizada */
   align-items: center;
+  height: auto; /* Alterado para auto */
+  width: 20%; /* Ajuste para um valor fixo */
+  border-radius: 50%;
+  animation: moveUpDown 2s ease-in-out infinite;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0); /* Início do movimento */
+  }
+  50% {
+    transform: translateY(-10px); /* Meio da animação (subindo) */
+  }
+  100% {
+    transform: translateY(0); /* Fim da animação (retorna ao normal) */
+  }
+}
+
+.txt {
   font-size: 25px;
   background: -webkit-linear-gradient(left, #97d9d9, #ec55b7);
   background: -moz-linear-gradient(left, #97d9d9, #ec55b7);
@@ -31,46 +51,14 @@
   background: linear-gradient(to right, #97d9d9, #ec55b7);
   border-radius: 20px;
   padding: 5px;
+  margin-top: 20px; /* Espaçamento entre a imagem e o texto */
+  text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 75px #ff00ff;
 }
 
-.img {
+.footer {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  justify-content: space-around;
+  justify-content: center; /* Garantir que a imagem fique centralizada */
   align-items: center;
-  height: 47%;
-  width: 20%;
-  margin: 10%;
-  border-radius: 20px;
-}
-
-.div{
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.imgLink {
-  height: 50px;
-  width: 50px;
-  margin: 10px;
-  border-radius: 100px;
-}
-
-.git{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  width: 12vh;
-}
-
-.linkedin {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  width: 11vh;
 }
