@@ -9,7 +9,7 @@ function Header(){
             <h1 className={styleHeader.h1}>Caroline Fernandes</h1>
             <h3 className={styleHeader.h3}>Desenvolvedora Web</h3>        
         </div>
-        <Link href='/' className={styleHeader.link}>Home</Link>
+        <Link href='/' className={styleHeader.link}>Início</Link>
         <Link href='/About' className={styleHeader.link}>Sobre</Link>
         <Link href='/Projects' className={styleHeader.link} >Projetos</Link>
         <Link href='/Skills' className={styleHeader.link} >Skills</Link>

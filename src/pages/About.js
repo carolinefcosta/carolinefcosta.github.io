@@ -3,27 +3,26 @@ import Image from 'next/image';
 import React from 'react';
 import MinhaFoto from '../images/MinhaFoto.jpeg';
 import styleAbout from '../components/About.module.css';
+//import Carousel from '@/components/Carousel';
  
 function About(){
     return (
         <div className={styleAbout.main}>
             <Header />
-            <h1 className={styleAbout.txt}>Sou Caroline Fernandes da Costa, tenho 28 anos.<br />
-            Moro em São Gonçalo do Amarante/ RN.<br />
-            Hoje me encontro apaixonada pela área de progamação,<br />
-            atualmente estou em transição de carreira e estudo Desenvolvimento<br />
-            Web na Trybe, sempre me desafiando a buscar novos conhecimentos.<br />
-            Aqui na foto ao lado sou eu com a farda do curso me preparando<br />
-            para um momento de soft-skills, que para mim são momentos<br />
-            riquíssimos e essencias para obtermos sucesso no trabalho<br />
-            em equipe, seja em uma organização, no curso, na família, etc.<br />
-            Hoje estou vivendo esse sonho de estudar programação e estou aqui em<br />
-            busca da minha maior realização profissional na área, de ser<br />
-            Desenvolvedora Full Stack atuante.<br />
-            Agradeço sua visita.<br />
-            Fique à vontade para entrar em contato comigo! 
-            </h1>
-            <Image src={MinhaFoto} alt='Foto eu, Henrique e Thor' className={styleAbout.img}/>      
+            <div className={styleAbout.div}>
+                <h1 className={styleAbout.txt}>Sou Caroline Fernandes da Costa, tenho 30 anos.<br />
+                Moro em São Gonçalo do Amarante/ RN.<br />
+                Hoje me encontro apaixonada pela área de progamação,<br />
+                atualmente faço Graduação em Sistemas de Informação,<br />
+                com formação em Desenvolvimento Web, pela Trybe<br />
+                e Técnica em Comércio pelo Instituto Federal do RN.<br />
+                Sou uma pessoa apaixonada pelos desafios da vida.<br />
+                E vivo em busca das minhas realizações pessoais/ profissionais<br />
+                Aqui ao lado são algumas fotos minhas aleatórias, rsrs<br />
+                Desde já agradeço sua visita.<br />
+                Fique à vontade para entrar em contato comigo!
+                </h1>
+            </div>  
         </div>
     )   
 }

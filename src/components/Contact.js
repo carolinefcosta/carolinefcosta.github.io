@@ -1,7 +1,5 @@
 import Image from 'next/image';
 import React from 'react';
-import iconGit from '../images/icons8-github-64.png';
-import iconLinkedin from '../images/icons8-linkedin-64.png';
 import styleContact from '../components/Contact.module.css';
 import github from '../images/github.png';
 import linkedin from '../images/linkedin.png';
