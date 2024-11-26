@@ -53,3 +53,55 @@
   margin: 10%;
   text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 75px #ff00ff;
 }
+
+/* === RESPONSIVIDADE === */
+
+/* Telas pequenas (celulares pequenos) */
+@media (max-width: 480px) {
+  .section {
+    flex-direction: column; /* Empilhar as habilidades verticalmente */
+    align-items: center; /* Centralizar os itens */
+  }
+
+  .img {
+    height: 80px; /* Reduzir o tamanho dos ícones */
+    width: 80px;
+  }
+
+  .paragrafh {
+    font-size: 14px; /* Reduzir o tamanho da fonte */
+    margin: 5% 0;
+    padding: 5px;
+  }
+}
+
+/* Telas médias (tablets e celulares maiores) */
+@media (max-width: 768px) {
+  .section {
+    flex-direction: row; /* Exibir as habilidades em linha */
+    justify-content: space-evenly; /* Distribuir as habilidades igualmente */
+  }
+
+  .img {
+    height: 90px; /* Ajustar o tamanho dos ícones */
+    width: 90px;
+  }
+
+  .paragrafh {
+    font-size: 15px; /* Ajustar o tamanho da fonte */
+    margin: 5%;
+  }
+}
+
+/* Telas grandes (desktops) */
+@media (min-width: 1024px) {
+  .img {
+    height: 100px; /* Manter o tamanho original dos ícones */
+    width: 100px;
+  }
+
+  .paragrafh {
+    font-size: 16px; /* Manter o tamanho da fonte */
+    margin: 10%;
+  }
+}
