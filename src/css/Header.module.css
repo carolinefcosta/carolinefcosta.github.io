@@ -2,6 +2,7 @@
 
 .main {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   width: 100%;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
@@ -24,4 +25,21 @@
   text-decoration: none;
   color: white;
   font-size: larger;
+}
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: row; /* Empilha os itens verticalmente */
+    text-align: center; /* Centraliza o texto */
+  }
+
+  .h1, .h3 {
+    font-size: 1.2rem; /* Reduz o tamanho das fontes */
+    text-align: center;
+  }
+
+  .link {
+    font-size: 1rem; /* Ajusta o tamanho dos links */
+    margin: 0.5rem; /* Espaçamento reduzido entre os links */
+  }
 }
