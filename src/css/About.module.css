@@ -6,6 +6,7 @@
   text-align: center;
   font-family: 'Sofia';
   background-color: rgba(0, 0, 0, 0.863);
+  min-height: 100vh;
 }
 
 .div {
@@ -31,4 +32,36 @@
 
 .img {
   width: 30%;
+}
+
+/* === RESPONSIVIDADE === */
+
+/* Telas menores (tablets e celulares maiores) */
+@media (max-width: 768px) {
+  .img {
+    width: 40%; /* Aumenta proporcionalmente em telas menores */
+    max-width: 250px; /* Limita o tamanho */
+  }
+
+  .txt {
+    font-size: 16px; /* Reduz tamanho da fonte */
+    padding: 8px 10px; /* Ajusta preenchimento */
+  }
+}
+
+/* Telas muito pequenas (celulares pequenos) */
+@media (max-width: 480px) {
+  .homeDiv {
+    padding: 10px; /* Reduz espaçamento lateral */
+  }
+
+  .img {
+    width: 60%; /* Faz a imagem ocupar mais espaço */
+    max-width: 200px; /* Limita o tamanho */
+  }
+
+  .txt {
+    font-size: 14px; /* Reduz tamanho da fonte ainda mais */
+    padding: 5px 8px; /* Reduz preenchimento */
+  }
 }
