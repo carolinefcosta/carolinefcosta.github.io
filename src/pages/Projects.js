@@ -1,6 +1,6 @@
 import Header from '@/components/Header';
 import React from 'react';
-import styleProjects from '../components/Projects.module.css';
+import styleProjects from '../css/Projects.module.css';
 import Image from 'next/image';
 import projectSolarSystem from '../images/solar-system.gif';
 import projectTrybetunes from '../images/trybetunes.gif';
@@ -15,7 +15,7 @@ function Projects(){
     return (
         <div className={styleProjects.main}>
             <Header />
-            <h1 className={styleProjects.h1}>Alguns dos Meus Projetos</h1>
+            <h1 className={styleProjects.h1}>Alguns Projetos</h1>
             <section className={styleProjects.section}>
                 <div className={styleProjects.gif}>
                     <Image src={projectSolarSystem} alt='projeto solar system'/>

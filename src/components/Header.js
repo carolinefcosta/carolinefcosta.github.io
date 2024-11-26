@@ -1,5 +1,5 @@
 import React from 'react';
-import styleHeader from './Header.module.css';
+import styleHeader from '../css/Header.module.css';
 import Link from 'next/link';
  
 function Header(){

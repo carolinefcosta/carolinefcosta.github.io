@@ -20,6 +20,7 @@
   background: linear-gradient(to right, #97d9d9, #ec55b7);
   border-radius: 12px;
   padding: 5px;
+  text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 75px #ff00ff;
 }
 
 .section {
@@ -42,4 +43,5 @@
   background: linear-gradient(to right, #97d9d9, #ec55b7);
   border-radius: 20px;
   padding: 5px;
+  text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 75px #ff00ff;
 }

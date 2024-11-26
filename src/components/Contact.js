@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import styleContact from '../components/Contact.module.css';
+import styleContact from '../css/Contact.module.css';
 import github from '../images/github.png';
 import linkedin from '../images/linkedin.png';
 

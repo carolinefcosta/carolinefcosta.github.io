@@ -1,0 +1,22 @@
+.carousel {
+  position: relative;
+  overflow: hidden; /* Oculta as imagens/vídeos fora da tela */
+  width: 20%; /* Largura do carrossel */
+  height: auto; /* Ajuste a altura conforme necessário */
+}
+
+.carouselInner {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Transição suave */
+  width: 100%;
+}
+
+.carouselItem {
+  flex: 0 0 100%; /* Cada item ocupa 100% da largura */
+}
+
+.carouselMedia {
+  width: 100%; /* Faz com que a mídia ocupe toda a largura do carrossel */
+  height: auto; /* Ajuste automático da altura */
+}
+  

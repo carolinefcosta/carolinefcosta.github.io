@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Sofia';
+  background-color: rgba(0, 0, 0, 0.863);
+  justify-content: center;
+  color: white;
+}
+
+.h1 {
+  font-size: 30px;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 20px;
+  height: 100px;
+  width: 100px;
+  animation: moveUpDown 2s ease-in-out infinite;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0); /* Início do movimento */
+  }
+  50% {
+    transform: translateY(-10px); /* Meio da animação (subindo) */
+  }
+  100% {
+    transform: translateY(0); /* Fim da animação (retorna ao normal) */
+  }
+}
+
+.paragrafh {
+  color: black;
+  background: -webkit-linear-gradient(left, #97d9d9, #ec55b7);
+  background: -moz-linear-gradient(left, #97d9d9, #ec55b7);
+  background: -ms-linear-gradient(left, #97d9d9, #ec55b7);
+  background: -o-linear-gradient(left, #97d9d9, #ec55b7);
+  background: linear-gradient(to right, #97d9d9, #ec55b7);
+  border-radius: 12px;
+  padding: 5px;
+  margin: 10%;
+  text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 75px #ff00ff;
+}
