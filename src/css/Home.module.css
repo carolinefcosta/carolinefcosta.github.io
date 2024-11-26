@@ -69,9 +69,13 @@
 
 /* Telas menores (tablets e celulares maiores) */
 @media (max-width: 768px) {
+  .main {
+    overflow: hidden;
+  }
+
   .img {
     width: 30%; /* Aumenta proporcionalmente em telas menores */
-    max-width: 150px; /* Limita o tamanho */
+    max-width: 200px; /* Limita o tamanho */
   }
 
   .txt {
@@ -82,13 +86,17 @@
 
 /* Telas muito pequenas (celulares pequenos) */
 @media (max-width: 480px) {
+  .main {
+    overflow: hidden;
+  }
+
   .homeDiv {
     padding: 10px; /* Reduz espaçamento lateral */
   }
 
   .img {
     width: 50%; /* Faz a imagem ocupar mais espaço */
-    max-width: 100px; /* Limita o tamanho */
+    max-width: 150px; /* Limita o tamanho */
   }
 
   .txt {
