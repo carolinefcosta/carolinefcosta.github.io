@@ -45,3 +45,59 @@
   padding: 5px;
   text-shadow: 0 0 10px #fff, 0 0 20px #ff00ff, 0 0 30px #ff00ff, 0 0 40px #ff00ff, 0 0 50px #ff00ff, 0 0 75px #ff00ff;
 }
+
+/* === RESPONSIVIDADE === */
+
+/* Telas pequenas (celulares pequenos) */
+@media (max-width: 480px) {
+  .h1 {
+    font-size: 16px; /* Reduzir o tamanho do título */
+    text-align: center;
+  }
+
+  .section {
+    flex-direction: column; /* Empilhar os projetos verticalmente */
+    align-items: center; /* Centralizar os itens */
+  }
+
+  .gif {
+    width: 80%; /* Aumentar o tamanho dos GIFs em telas pequenas */
+    margin: 10px 0; /* Menor margem */
+  }
+
+  .link {
+    font-size: 10px; /* Reduzir o tamanho do link */
+    padding: 8px; /* Ajustar o espaçamento */
+  }
+}
+
+/* Telas médias (tablets e celulares maiores) */
+@media (max-width: 768px) {
+  .h1 {
+    font-size: 18px; /* Ajustar o tamanho do título */
+    text-align: center;
+  }
+
+  .section {
+    flex-direction: row; /* Exibir os projetos em linha */
+    justify-content: space-evenly; /* Garantir que os itens ocupem a largura disponível */
+  }
+
+  .gif {
+    width: 45%; /* Ajuste de largura para tela média */
+    margin: 10px;
+  }
+
+  .link {
+    font-size: 12px; /* Tamanho de link ajustado */
+    padding: 8px;
+  }
+}
+
+/* Telas grandes (desktops) */
+@media (min-width: 1024px) {
+  .gif {
+    width: 30%; /* Manter o tamanho original */
+    margin: 15px;
+  }
+}
